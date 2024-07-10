@@ -80,8 +80,11 @@ def call_gpt_with_retries(messages, max_tokens=256, temperature=0.8, retries=10)
             wait_time = int(e.headers.get("Retry-After", 5))
             print(f"Rate limit reached. Waiting for {wait_time} seconds before retrying...")
             time.sleep(wait_time)
+        except openai.error.OpenAIError as e:
+            print(f"An OpenAI error occurred: {e}")
+            return None
         except Exception as e:
-            print(f"An error occurred: {e}")
+            print(f"An unexpected error occurred: {e}")
             return None
     print("Max retries reached. Please try again later.")
     return None
