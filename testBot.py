@@ -1,4 +1,5 @@
 import openai
+from openai.error import APIConnectionError, RateLimitError, APIError
 from telegram import Update
 from telegram.constants import ChatAction
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
@@ -83,12 +84,15 @@ def call_gpt_with_retries(messages, max_tokens=256, temperature=0.8, retries=10)
                 temperature=temperature
             )
             return response
-        except openai.error.RateLimitError as e:
+        except RateLimitError as e:
             wait_time = int(e.headers.get("Retry-After", 5))
             logger.warning(f"Rate limit reached. Waiting for {wait_time} seconds before retrying...")
             time.sleep(wait_time)
-        except openai.error.OpenAIError as e:
-            logger.error(f"An OpenAI error occurred: {e}")
+        except APIConnectionError as e:
+            logger.error(f"Connection error: {e}")
+            time.sleep(5)  # Wait a bit before retrying
+        except APIError as e:
+            logger.error(f"API error: {e}")
             return None
         except Exception as e:
             logger.error(f"An unexpected error occurred: {e}")
