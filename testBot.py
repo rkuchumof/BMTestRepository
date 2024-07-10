@@ -1,14 +1,11 @@
 import openai
-from telegram import Update
-from telegram.constants import ChatAction
+from telegram import Update, ChatAction
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 from dotenv import load_dotenv
 import os
 import json
 import re
 import time
-
-
 
 # Load environment variables from .env file
 load_dotenv()
@@ -17,7 +14,6 @@ load_dotenv()
 api_key = os.getenv('OPENAI_API_KEY')
 admin_user_id = int(os.getenv('ADMIN_USER_ID'))
 tg_token = os.getenv('TELEGRAM_TOKEN')
-
 
 # Check if the API key is fetched correctly
 if not api_key:
@@ -46,26 +42,15 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     conversation_history[user_id] = []  # Initialize conversation history for the user
     await update.message.reply_text('Здравствуйте! Чем могу вам помочь?')
 
-
-
 def clean_json_string(json_string):
     # Define a regular expression pattern to match invalid control characters
-    control_chars = re.compile(
-        r'[\x00-\x1f\x7f]|(\*\*)'  # Match control characters in the range \x00-\x1f and \x7f
-    )
-    
-    # Remove control characters from the JSON string
+    control_chars = re.compile(r'[\x00-\x1f\x7f]|(\*\*)')  # Match control characters in the range \x00-\x1f and \x7f
     cleaned_string = control_chars.sub('', json_string)
-
     cleaned_text = cleaned_string.strip('```json').strip('```')
-        
     return cleaned_text
-
-
 
 # Function to extract intent from ChatGPT's response
 def extract_intent(response_text):
-
     try:
         # Clean up the response text
         cleaned_text = clean_json_string(response_text)
@@ -79,16 +64,12 @@ def extract_intent(response_text):
         pass
     return 'Unclear Yet', response_text
 
-
-
-
-
 def call_gpt_with_retries(messages, max_tokens=256, temperature=0.8, retries=10):
     for attempt in range(retries):
         try:
-            # Get response from GPT-4o-2024-05-13
+            # Get response from GPT-4
             response = openai.ChatCompletion.create(
-                model="gpt-4o-2024-05-13",
+                model="gpt-4",
                 messages=messages,
                 max_tokens=max_tokens,
                 temperature=temperature
@@ -103,13 +84,6 @@ def call_gpt_with_retries(messages, max_tokens=256, temperature=0.8, retries=10)
             return None
     print("Max retries reached. Please try again later.")
     return None
-
-
-
-
-
-
-
 
 # Function to handle messages and interact with ChatGPT
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -141,29 +115,29 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
 
     response = call_gpt_with_retries(messages)
 
-    response_text = response['choices'][0]['message']['content'].strip()
+    if response is not None:
+        response_text = response['choices'][0]['message']['content'].strip()
 
-    # Log the raw response for debugging
-    #print(f"Raw ChatGPT response: {response_text}")
+        # Extract the intent and the response text from ChatGPT's response
+        intent, clean_response_text = extract_intent(response_text)
 
-    # Extract the intent and the response text from ChatGPT's response
-    intent, clean_response_text = extract_intent(response_text)
+        # Add assistant message to conversation history
+        conversation_history[user_id].append({"role": "assistant", "content": clean_response_text})
 
-    # Add assistant message to conversation history
-    conversation_history[user_id].append({"role": "assistant", "content": clean_response_text})
+        # Log ChatGPT's answer and intent
+        print(f"ChatGPT response: {clean_response_text}")
+        print(f"Intent detected: {intent}")
 
-    # Log ChatGPT's answer and intent
-    print(f"ChatGPT response: {clean_response_text}")
-    print(f"Intent detected: {intent}")
+        # Send the response in parts if it's too long
+        max_message_length = 4096  # Telegram message limit
+        for i in range(0, len(clean_response_text), max_message_length):
+            await update.message.reply_text(clean_response_text[i:i + max_message_length])
 
-    # Send the response in parts if it's too long
-    max_message_length = 4096  # Telegram message limit
-    for i in range(0, len(clean_response_text), max_message_length):
-        await update.message.reply_text(clean_response_text[i:i + max_message_length])
-
-    # Trigger actions based on the detected intent
-    if intent == 'Potential Partner Who Left Contact Details for Communication' or intent == 'Potential Client Who Left Contact Details for Communication':
-        await send_conversation_to_admin(context, user_id, user_nickname, intent)
+        # Trigger actions based on the detected intent
+        if intent in ['Potential Partner Who Left Contact Details for Communication', 'Potential Client Who Left Contact Details for Communication']:
+            await send_conversation_to_admin(context, user_id, user_nickname, intent)
+    else:
+        await update.message.reply_text("Sorry, an error occurred while processing your request. Please try again later.")
 
 # Function to send the conversation history to a specified user
 async def send_conversation_to_admin(context: ContextTypes.DEFAULT_TYPE, user_id: int, user_nickname: str, intent: str) -> None:
@@ -177,7 +151,6 @@ async def error(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     print(f'Update {update} caused error {context.error}')
 
 def main() -> None:
-    # Replace 'YOUR_TOKEN_HERE' with your bot's token
     application = Application.builder().token(tg_token).build()
 
     application.add_handler(CommandHandler('start', start))
