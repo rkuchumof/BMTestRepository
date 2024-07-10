@@ -7,6 +7,13 @@ import os
 import json
 import re
 import time
+import logging
+
+# Configure logging
+logging.basicConfig(
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
+)
+logger = logging.getLogger(__name__)
 
 # Load environment variables from .env file
 load_dotenv()
@@ -60,8 +67,8 @@ def extract_intent(response_text):
         if 'intent' in response_json and 'response' in response_json:
             return response_json['intent'], response_json['response']
     except json.JSONDecodeError as e:
-        print(f"JSONDecodeError: {e}")
-        print(f"Response text: {response_text}")
+        logger.error(f"JSONDecodeError: {e}")
+        logger.error(f"Response text: {response_text}")
         pass
     return 'Unclear Yet', response_text
 
@@ -78,15 +85,15 @@ def call_gpt_with_retries(messages, max_tokens=256, temperature=0.8, retries=10)
             return response
         except openai.error.RateLimitError as e:
             wait_time = int(e.headers.get("Retry-After", 5))
-            print(f"Rate limit reached. Waiting for {wait_time} seconds before retrying...")
+            logger.warning(f"Rate limit reached. Waiting for {wait_time} seconds before retrying...")
             time.sleep(wait_time)
         except openai.error.OpenAIError as e:
-            print(f"An OpenAI error occurred: {e}")
+            logger.error(f"An OpenAI error occurred: {e}")
             return None
         except Exception as e:
-            print(f"An unexpected error occurred: {e}")
+            logger.error(f"An unexpected error occurred: {e}")
             return None
-    print("Max retries reached. Please try again later.")
+    logger.error("Max retries reached. Please try again later.")
     return None
 
 # Function to handle messages and interact with ChatGPT
@@ -103,7 +110,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
     conversation_history[user_id].append({"role": "user", "content": user_message})
 
     # Log the user's question
-    print(f"User: {user_message}")
+    logger.info(f"User: {user_message}")
 
     # Show typing action while waiting for a response
     await context.bot.send_chat_action(chat_id=update.message.chat_id, action=ChatAction.TYPING)
@@ -129,8 +136,8 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         conversation_history[user_id].append({"role": "assistant", "content": clean_response_text})
 
         # Log ChatGPT's answer and intent
-        print(f"ChatGPT response: {clean_response_text}")
-        print(f"Intent detected: {intent}")
+        logger.info(f"ChatGPT response: {clean_response_text}")
+        logger.info(f"Intent detected: {intent}")
 
         # Send the response in parts if it's too long
         max_message_length = 4096  # Telegram message limit
@@ -148,11 +155,11 @@ async def send_conversation_to_admin(context: ContextTypes.DEFAULT_TYPE, user_id
     conversation = conversation_history.get(user_id, [])
     conversation_text = '\n'.join([f"{msg['role']}: {msg['content']}" for msg in conversation])
     await context.bot.send_message(chat_id=admin_user_id, text=f"Conversation with @{user_nickname} ({intent}):\n\n{conversation_text}")
-    print(f"Triggered '{intent}' event. Sent conversation with user {user_id} (@{user_nickname}) to admin.")
+    logger.info(f"Triggered '{intent}' event. Sent conversation with user {user_id} (@{user_nickname}) to admin.")
 
 # Function to handle errors
 async def error(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    print(f'Update {update} caused error {context.error}')
+    logger.error(f'Update {update} caused error {context.error}')
 
 def main() -> None:
     application = Application.builder().token(tg_token).build()
