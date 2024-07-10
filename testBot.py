@@ -7,6 +7,7 @@ import os
 import json
 import re
 import time
+from openai.error import RateLimitError, OpenAIError
 
 # Load environment variables from .env file
 load_dotenv()
@@ -76,11 +77,11 @@ def call_gpt_with_retries(messages, max_tokens=256, temperature=0.8, retries=10)
                 temperature=temperature
             )
             return response
-        except openai.error.RateLimitError as e:
+        except RateLimitError as e:
             wait_time = int(e.headers.get("Retry-After", 5))
             print(f"Rate limit reached. Waiting for {wait_time} seconds before retrying...")
             time.sleep(wait_time)
-        except openai.error.OpenAIError as e:
+        except OpenAIError as e:
             print(f"An OpenAI error occurred: {e}")
             return None
         except Exception as e:
