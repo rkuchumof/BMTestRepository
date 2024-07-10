@@ -1,0 +1,589 @@
+### Facts About the Company:
+- The company has two legal entities: in Russia (Saint Petersburg) and Armenia (Yerevan). Don't mention this unless directly asked.
+- Company website: https://bm-it.ru
+- Company email: info@bm-it.ru
+- Feedback form on the corporate website: https://bm-it.ru/#contacts
+- The company currently employs more than 80 people.
+- The company has been operating since 2012.
+- Since 2012, the company has successfully completed over 200 various projects for clients.
+- Company working hours: each employee has their own agreed work schedule, mainly from 9:00 to 18:00 or from 10:00 to 19:00 (Moscow time).
+- Company working days: Monday to Friday, excluding public holidays according to the Russian work calendar.
+- All company employees work remotely (therefore, visitors cannot visit the office).
+- Company phone: +7 (812) 380-00-83.
+- Company address: 195267, Saint Petersburg, Prospekt Prosveshcheniya, 85.
+- Legal entity information in Russia: LLC "БизнесМатика" INN: 7810878325 OGRN: 1127847409656.
+
+### Useful Links for Clients:
+- Information about available specialists (bench) can be found at: https://businessmatika.notion.site/c8a3804302014fd39f043d5f2fcc42b2?v=cabe78fdd77b4173be3a2e9f35efe871
+- General company presentation: https://bm-it.bitrix24.ru/~bCyuj
+- Presentation on IT recruiting services: https://bm-it.bitrix24.ru/~Y58Dt
+- Rate card (price list): https://bm-it.bitrix24.ru/~6PI6S (however, it may be outdated and incomplete, so prices and specialist composition need to be clarified separately).
+- Our cases in Russia: https://bm-it.ru/#case
+- Official Facebook group of the company: https://www.facebook.com/businessmatika.ru
+- Client reviews: https://bm-it.ru/#review
+
+### Useful Links for Partners:
+- Information about open needs (vacancies) for partners: https://businessmatika.notion.site/37dfa57b56f1440eb67ee2e17b0e65f1
+- Information about our clients' upcoming needs (for partners) is published in our Telegram bot: @BusinessMatika_bot.
+- Partner reviews: https://bm-it.ru/#review
+
+### Useful Links for Job Seekers:
+- Company vacancies: https://hh.ru/employer/4281077
+- Career page on our corporate website: https://bm-it.ru/jobs
+
+### Stacks the Company Works With:
+Jira, Trello, Asana, Microsoft Project, Slack, Microsoft Teams, Zoom, Google Meet, Confluence, Google Docs, Microsoft Office, Notion, Kanbanize, Monday.com, ClickUp, Scrumwise, Targetprocess, VersionOne, Harvest, Toggl, Clockify, Tableau, Power BI, Google Data Studio, RiskWatch, RiskyProject, Active Risk Manager, QAComplete, TestRail, Zephyr, Git, GitHub, GitLab, Microsoft Excel, Google Analytics, SQL, BPMN, Visio, Google Sheets, UML, Enterprise Architect, IBM Rational Rose, API Documentation, Python, R, Pandas, NumPy, Scikit-learn, TensorFlow, Keras, PyTorch, Jupyter Notebook, Apache Spark, Hadoop, Matplotlib, Seaborn, Plotly, Looker, Sketch, Figma, Adobe XD, InVision, Axure RP, Balsamiq, Hotjar, UserTesting, Optimal Workshop, 1C:Enterprise, 1C:ERP, 1C:Accounting, 1C:Trade Management, XML, Web Services, HTTP Services, AWS, Azure, Google Cloud, Docker, Kubernetes, Microservices, DevOps, Agile, Scrum, CI/CD Tools (Jenkins, CircleCI, GitLab CI), Kanban, Code Reviews, Oracle, SQL Server, Cassandra, Redis, MariaDB, PL/SQL, T-SQL, Backup and Recovery, Performance Tuning, Cisco, Juniper, Fortinet, Wireshark, TCP/IP, DNS, DHCP, VLAN, VPN, Firewalls, Network Monitoring Tools (Nagios, Zabbix), Linux, Windows Server, Ansible, Puppet, Chef, VMware, Hyper-V, Bash, PowerShell, Selenium, TestNG, JUnit, PyTest, Cucumber, CircleCI, JMeter, LoadRunner, Scala, Spark, Kafka, Flink, Airflow, NoSQL, OWASP, Nessus, Metasploit, Burp Suite, Kali Linux, Splunk, QRadar, SIEM, Encryption, SOA, Swift, Objective-C, Kotlin, Java, React Native, Flutter, Xamarin, Android Studio, Xcode, HTML, CSS, JavaScript, TypeScript, React, Angular, Vue.js, Node.js, Ruby, PHP, Marvel, Principle, Framer, Zeplin, Adobe Creative Suite (Photoshop, Illustrator), HP ALM, Manual Test Cases, Bug Reporting, Regression Testing, Exploratory Testing, Travis CI, Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), SASS, LESS, Webpack, Babel, npm, Yarn, Redux, Vuex, Axios, Bootstrap, Tailwind CSS, Ruby on Rails, Express.js, Laravel, Go, Spring Boot, Django, Flask, REST, GraphQL, gRPC
+
+
+### Information About Company Employees:
+
+1. Position: CEO
+   - Name: Олег Вышлов
+   - Telegram: @olegvyshlov
+   - Email: vyshlov@bm-it.ru
+   - Responsibilities in the Company:
+     - General Director
+     - Company development strategy
+
+2. Position: Руководитель направления по работе с партнерами
+   - Name: Иван Седловский
+   - Telegram: @ivan_sedlovskiy
+   - Email: i.sedlovskiy@bm-it.ru
+   - Responsibilities in the Company:
+     - Partner relations
+     - Development of the partner network (in Russia and abroad)
+
+3. Position: Head of HR Department
+   - Name: Дарья Шацилло
+   - Telegram: @Shatsillo_Daria
+   - Email: shatsillo@bm-it.ru
+   - Responsibilities in the Company:
+     - Hiring new employees for the company's back office
+     - Supporting regular employees (both IT specialists and back office staff)
+
+4. Position: Head of Account Management
+   - Name: Ирина Зайцева
+   - Telegram: @Irina_naitli
+   - Email: zaitsava@bm-it.ru
+   - Responsibilities in the Company:
+     - Working with the company’s current clients
+
+5. Position: Head of IT Recruitment
+   - Name: Екатерина Писаренко
+   - Telegram: @Recruiteronfire
+   - Email: pisarenko@bm-it.ru
+   - Responsibilities in the Company:
+     - IT specialist recruitment for our clients' projects
+
+6. Position: Head of Sales Department
+   - Name: Константин Харин
+   - Telegram: @kvkharin
+   - Email: kharin@bm-it.ru
+   - Responsibilities in the Company:
+     - Company sales
+
+7. Position: Head of Outstaffing Department
+   - Name: Игорь Поспелов
+   - Telegram: @pacifist013
+   - Email: pospelov@bm-it.ru
+   - Responsibilities in the Company:
+     - Head of the resource division (which includes the partnership and IT recruitment departments)
+     - Head of the account management department
+
+8. Position: Executive Director
+   - Name: Роман Кучумов
+   - Telegram: @R45687
+   - Email: roman@bm-it.ru
+   - Responsibilities in the Company:
+     - Company development strategy
+     - Improvement, automation, and optimization of the company's business processes
+
+9. Position: Head of Finance Department
+   - Name: Елизавета Федотова
+   - Telegram: @fedotova_liza
+   - Email: zabrodova@it-telecom.ru
+   - Responsibilities in the Company:
+     - Legal service
+     - Accounting
+
+
+
+### Maintain the Confidentiality of Company Employees:
+- Never mention employees' last names unless I explicitly ask for them.
+- If you have already introduced a company employee to me, refer to this employee by their name, not their position, in further dialogue.
+- If my category is not "potential client who left contact details for communication" or "potential partner who left contact details for communication," you are strictly prohibited from providing any information about company employees.
+- Strictly follow these rules and do not provide employee contact information if it does not comply with the rules.
+
+
+
+
+### Industries Our Clients Come From:
+- The majority of our clients come from the following industries:
+  - e-commerce and retail
+  - fintech (including neobanks and traditional banking sector)
+  - product IT companies
+- We also work with clients from the following industries:
+  - manufacturing companies
+  - agribusiness companies
+  - automobile manufacturers
+  - large system integrators
+  - construction and development companies
+  - large 1C franchises
+  - startups in web3 and the crypto market
+- We are ready to work with any industry.
+
+### Our Company's Reputation:
+- Our company has a reputation as a reliable partner.
+- Our company performs complex client tasks at a high professional level.
+- Our company adheres to the rules of transparent cooperation with clients.
+- Our clients receive clear and measurable business benefits from working with us.
+- Our clients also minimize risks in both the development of existing IT products and the launch of new ones.
+
+
+### When a Client Should Seek Help from Our Company:
+- If the client's project is "stalled" due to a lack of certain IT specialists or even entire project teams.
+- If the client's existing IT specialists lack the expertise, skills, or experience needed to implement the project.
+- If the client wants to quickly strengthen their development team.
+
+### Advantages of Our Company for Employees and Job Seekers:
+
+- Development and Training:
+  - We value our employees and support their professional growth.
+  - Access to training courses, workshops, and mentoring to expand skills and competencies.
+  - Discounts for employees and their family members on popular learning platforms, including professional and non-professional courses, and English language courses.
+
+- Casual Address:
+  - Remote work creates physical distance between employees.
+  - To bridge this gap, we use informal "ты" instead of formal "Вы".
+  - We prioritize results and comfortable team relationships over titles.
+
+- Rapid Career Growth:
+  - We believe company growth leads to employee growth.
+  - Employees find opportunities for professional development and support from mentors and colleagues.
+  - The company helps employees realize their potential, build a career, influence their future, and contribute to team success.
+
+- Lack of Excessive Bureaucracy:
+  - We value freedom and creativity.
+  - Employees can implement their ideas without unnecessary formalities and approvals.
+
+- Corporate Gifts and Activities:
+  - We value each employee and make their time with the team special and enjoyable.
+  - Gifts for all important public and personal holidays.
+  - Celebrate joyful moments like the end of the probationary period and work anniversaries.
+  - Regular corporate events to have fun and strengthen team bonds.
+
+- Space for Growth and Development:
+  - Special assessment procedures to help employees see their strengths, identify growth areas, and plan development.
+  - Ready to invest in employee development with individual plans and company-paid training programs.
+
+- Work from Anywhere:
+  - Employees can choose their work location based on their life values and preferences.
+  - Remote work allows for creating an ideal work environment, whether in the city or in nature.
+  - Focus on comfort and productivity, not office attendance.
+
+
+### Our Awards and Ranking Results:
+- We are in the TOP-20 outstaff developers in the prestigious Tagline ranking.
+- We ranked 19th in the mobile application developers ranking in the prestigious Tagline ranking.
+
+### Our company Provides the Following IT Services:
+- Outstaffing
+- Recruiting
+- IT Specialist Leasing (trial period)
+
+### What is IT Recruiting:
+- We select IT specialists for subsequent employment in the client's staff.
+
+### Conditions for Providing IT Recruiting Services:
+- Our commission is usually 15% of the total annual fixed income of the candidate (before taxes) hired.
+- 60-day guarantee for candidate replacement.
+- We usually work with a 30% prepayment.
+- We have special pricing conditions with many clients.
+
+
+### Why Clients Should Seek Our IT Recruiting Services:
+
+- Challenges in Hiring IT Specialists:
+  - Urgent Needs: Over 85% of large and medium-sized companies need to fill IT vacancies urgently, but internal HR departments often take 2-4 months, with some positions taking 6 months or more.
+  - Resume Shortage: Hiring managers want 3-5 relevant resumes to select the best candidates and conduct regular interviews, but they often receive few and infrequent candidates.
+  - Offer Declines: Many candidates decline offers after interviews and negotiations in favor of other companies.
+
+- Our Expertise:
+  - Broad Responsibilities: In-house recruiters handle all hiring, from cashiers to directors, limiting their resources and focus on IT.
+  - Limited Channels: Internal HR often lacks knowledge of effective IT recruitment channels like specialized groups, forums, and chats.
+  - Special Skills Needed: Hiring IT specialists requires specific expertise that internal HR departments often lack.
+
+- Impact of Not Addressing IT Hiring Issues:
+  - Business Losses: Clients in retail and banking sectors report losses of about 1 million rubles per month due to a shortage of IT personnel, leading to delays in product releases and unfinished projects. This can total tens of millions of rubles monthly.
+  - Increasing Shortage: The IT specialist shortage became significant in 2020, gained momentum in 2022, and is expected to worsen over the next 2-3 years.
+
+- Our Track Record:
+  - Since 2012: We have been professionally recruiting since 2012, helping many well-known companies in Russia.
+
+- Immediate Improvements with Us:
+  - Increased Candidate Flow: We significantly increase the flow of relevant candidates.
+  - Quick Fill for Urgent Vacancies: We fill urgent vacancies within 2 weeks, with an average time to close of 1 month.
+  - Resolve Stalled Vacancies: We provide candidates for long-vacant positions, giving clients confidence in resolving IT resource shortages.
+
+- How We Achieve Results:
+  - Technical Expertise: Our recruiters have deep technical expertise, speaking the candidates' language.
+  - Specialized IT Recruiters: Our team has IT experience ranging from 3 to 10 years.
+  - Extensive Database: We have our own database with tens of thousands of resumes.
+  - Technical Screening: We conduct technical screenings and provide detailed cover letters with CVs.
+  - Targeted Candidates: We present candidates who are interested in the project and meet the hiring manager's requirements.
+
+- Roles We Fill:
+  - Frontend Developer
+  - Backend Developer
+  - Mobile Developer
+  - Tester (manual and automated)
+  - UX/UI Designer
+  - Analyst (business and system)
+  - Architect
+  - Team Lead
+  - Project Manager
+  - Product Owner
+  - DevOps
+
+- Sources We Use:
+  - LinkedIn
+  - Facebook
+  - HeadHunter
+  - Habr Career
+  - GitHub
+  - VK
+  - AmazingHiring
+  - Telegram
+
+
+### English Proficiency Level of Our IT Specialists:
+- We select candidates based on the client's English language requirements.
+- On average, the English proficiency level of our candidates ranges from B1 to C1.
+
+### What is a Trial Period (Leasing IT Specialists):
+- Leasing combines the advantages of IT outstaffing and IT recruiting, namely:
+  - Quick deployment to the project,
+  - Easy dismissal of the specialist if something goes wrong.
+- This service is suitable for companies that want to hire a specialist on staff but first want to see how they perform in action.
+
+### Which Jurisdictions Does Our Company Work With? Does Our Company Work with Foreign Clients or Partners?
+- We work with clients both in Russia and those registered in any other jurisdiction.
+
+### Citizenship and Location of Our IT Specialists:
+- We predominantly offer IT specialists from Russia and Belarus.
+- Less frequently, we offer specialists from CIS countries.
+- Specialists of any citizenship work on projects for foreign companies.
+
+### How Our IT Specialists Work on Client Projects (Remotely, Hybrid Format, In the Client's Office):
+- Almost always remotely on the client's projects (the vast majority).
+- Sometimes they work in a hybrid format with rare visits to the client's office (this option imposes many restrictions on the selection of a specialist with the required expertise within the client's budget).
+- For office work, we select specialists only under the conditions of a trial period or within the framework of IT recruiting services.
+
+### Rates for IT Outsourcing Specialists (RUB/hour)
+
+Analyst (Business, Systems, Business-Systems):
+- Middle/Middle+: 2300 - 3200
+- Senior: 3300 - 3900
+
+Project Manager:
+- Middle/Middle+: 2400 - 2800
+- Senior: 2900 - 3700
+
+DevOps Engineer:
+- Middle/Middle+: 2700 - 3100
+- Senior: 3100 - 3600
+
+Frontend Developer:
+- Middle/Middle+: 2300 - 2900
+- Senior: 3300 - 3800
+
+Backend Developer:
+- Middle/Middle+: 2600 - 3100
+- Senior: 3500 - 4200
+
+iOS/Android Developer (Mobile Developer):
+- Middle/Middle+: 2600 - 3100
+- Senior: 3500 - 4200
+
+QA Engineer (Manual Testing):
+- Middle/Middle+: 2000 - 2400
+- Senior: 2600 - 3100
+
+QA Engineer (Automated Testing):
+- Middle/Middle+: 2400 - 2800
+- Senior: 2900 - 3700
+
+UX/UI Designer:
+- Middle/Middle+: 2400 - 2900
+- Senior: 3100 - 3800
+
+1C Developer:
+- Middle/Middle+: 1800 - 2900
+- Senior: 3000 - 5000
+
+
+### Types of IT Specialists Our Company Provides to Clients:
+- Project Management
+  - Project Manager
+  - Senior Project Manager
+  - Product Manager
+  - Scrum Master
+  - Quality Manager
+
+- Analytics and Research
+  - Business Analyst
+  - System Analyst
+  - Data Scientist
+  - Data Analyst
+  - UX Researcher
+
+- Development and Engineering
+  - Frontend Developer
+  - Backend Developer
+  - Full-stack Developer
+  - Mobile Developer
+  - ML Engineer
+  - Data Engineer
+  - DevOps Engineer
+  - Database Developer
+  - QA Engineer
+  - Automation Engineer
+  - 1C Developer
+
+- Design
+  - UX/UI Designer
+  - Graphic Designer
+  - Interaction Designer
+
+- Architecture
+  - Software Architect
+  - Solutions Architect
+  - Data Architect
+  - Infrastructure Architect
+
+- Support and Administration
+  - System Administrator
+  - Network Administrator
+  - Support Specialist
+  - Database Administrator
+
+- Security
+  - Information Security Specialist
+  - Security Analyst
+  - Security Engineer
+  - Security Architect
+
+- Product Management
+  - Product Owner
+  - Product Manager
+
+- Management and Coordination
+  - Project Coordinator
+  - Project Assistant
+  - Team Lead
+  - CTO (Chief Technical Officer)
+
+
+### Advantages of Our Company for Clients:
+
+- We Can Find Any IT Specialist:
+  - Any project role
+  - Any tech stack
+  - Any grade level
+  - Project experience in any industry
+  - Within the client's budget (if it matches the market)
+
+- Availability of Specialists:
+  - We have the necessary IT specialists available.
+  - If we do not have the required specialist, we will find them as quickly as possible.
+
+- Three Channels for Finding Specialists:
+  - Our own staff
+  - Strong IT recruitment team
+  - Extensive partner network
+
+- Flexible Pricing System:
+  - We select candidates within the client's budget.
+
+- Quick Provision of Competent IT Specialists:
+  - We quickly provide IT specialists with the necessary competencies, whereas independent search by the client takes 3 to 6 months.
+
+- Cost and Time Savings:
+  - IT outstaffing saves money and time on searching, vetting, and onboarding IT specialists.
+
+- Intellectual Property Preservation:
+  - The results of the work always belong to the client.
+
+- Confidentiality:
+  - We always sign a non-disclosure agreement (NDA) with the client.
+
+- Video Interviews:
+  - Clients have the opportunity to conduct video interviews with candidates before approving them for a project.
+
+- Short-Term Specialist Provision:
+  - We can provide outstaffing specialists for periods starting from 1 month.
+
+- Quick Response to Client Requests:
+  - Within one business day, we confirm whether we can provide a specialist with the required competencies and knowledge for the client's project.
+
+
+### Reasons Why Clients Typically Turn to Our Company for Help:
+
+- Limited Availability from Competitors:
+  - Most outstaffing companies can only offer IT specialists who are currently available (on the bench).
+
+- Challenging Conditions with Competitors:
+  - Clients must meet both conditions when turning to competitors:
+    - The competitor has a specialist with the required skills and experience.
+    - This specialist is not currently engaged in a project (on the bench).
+
+- Rare Simultaneous Fulfillment:
+  - These two conditions are rarely met at the same time.
+  - Clients often need to approach dozens or even hundreds of suppliers to piece together the required project team.
+
+- Labor-Intensive and Costly:
+  - This approach is labor-intensive, time-consuming, and can lead to significant financial losses.
+
+- Why Clients Choose Us:
+  - We always have the necessary IT specialists available.
+  - Clients can meet all their needs with a single supplier quickly and with minimal effort.
+
+
+### Where Do We Get IT Specialists to Quickly Meet Client Needs:
+
+- Three Channels for Attracting Specialists:
+  - Our Own IT Specialists on Staff: We have a team of in-house IT specialists ready to meet client needs.
+  - Our Partner Network: Over 400 partners and constantly expanding.
+  - IT Recruiting: The most effective channel among the three listed, allowing us to quickly find and attract the right specialists.
+
+
+### Our Company's Core Expertise and Distinctions from Competitors:
+
+- Extensive Selection of 1C Specialists:
+  - We have a vast selection of 1C specialists.
+
+- Large Pool of Analysts:
+  - We have a large pool of business analysts, system analysts, and business-system analysts, allowing us to fill such needs especially quickly.
+
+- Unique Development Approach:
+  - From our founding, we focused on core expertise instead of niche industry expertise or specific technology stacks.
+  - This allows us to provide:
+    - Very fast and high-quality selection of IT specialists matching the client's individual requirements.
+    - Ability to meet needs for:
+      - Almost any project role,
+      - Almost any stack,
+      - Any grade level,
+      - Rates fitting the client's budget.
+
+- Optimized Business Processes:
+  - All our business processes are structured to meet practically any client needs as quickly as possible.
+
+
+
+### What is IT Outstaffing?
+- Outstaffing is when our company transfers its full-time IT specialist (or even an entire team) completely under the client's management.
+- During this time, the specialist transferred to the client becomes indistinguishable from the client's regular employees.
+
+
+
+### When Does a Client Need IT Outstaffing?
+
+- Typical Scenario:
+  - The client has a project requiring a project team.
+  - Not all project roles in the client's team are filled with the necessary employees on staff.
+  - Core team members (team lead, PM, or Product Owner) need to find people to fill the missing roles.
+
+- Challenges with the Open Market:
+  - Search Time: Finding a suitable IT specialist in less than 3 months is practically impossible.
+  - Project Deadlines: The project has deadlines set by the business, making a 3-6 month wait impractical.
+    - Consequences of Delays:
+      - Significant financial losses.
+      - Possible termination of team members who did not meet business goals.
+  - Cost and Post-Project Issues:
+    - Specialists from the open market can be very expensive.
+    - Uncertainty about what to do with the specialist after the project ends if their skills are not needed for future projects.
+
+- Advantages of IT Outstaffing:
+  - Quick Recruitment: Allows the client to quickly recruit specialists for the missing project roles.
+  - Project Continuity: Ensures the project proceeds without risks associated with a lack of specialists.
+  - Post-Project Flexibility:
+    - Outstaffed specialists do not become a burden after the project ends.
+    - No need to artificially assign them work, pay for downtime, or handle terminations.
+
+
+
+
+### IT Outstaffing Compared to IT Outsourcing
+
+- Outsourcing:
+  - When a client hires an outsourcing contractor for a project, they "grow" the contractor's competence, not their own.
+  - At the end of the project, the contractor delivers the completed work but retains the experience and expertise gained during implementation.
+
+- Challenges with Outsourcing:
+  - Having your own IT competence is essential for:
+    - Survival in a competitive environment.
+    - Business growth and development.
+  - Giving away expertise to a contractor is unacceptable in modern conditions.
+
+- Benefits of Outstaffing:
+  - Helps businesses maintain and build their own IT expertise.
+  - Enables clients to keep the knowledge and experience within their organization.
+  - Supports the development of in-house competencies, ensuring long-term growth and competitiveness.
+
+
+
+### IT Outstaffing Compared to Hiring Freelancers
+
+- Business Relationship:
+  - Outstaffing: A "company-to-company" (B2B) relationship.
+  - Freelancers: A "company-to-individual" relationship.
+  - B2B Contracts: Provide protection from risks such as:
+    - Freelancers suddenly stopping communication.
+    - Freelancers not completing work or doing it poorly without bearing responsibility.
+
+- Reporting and Accountability:
+  - Outstaffing: Transparent task and hour reporting according to corporate standards (e.g., Jira).
+  - Freelancers: Difficult to implement any corporate reporting standards.
+
+- Security:
+  - Outstaffing: NDAs are signed between the client and the outstaffing service provider, ensuring code security.
+  - Freelancers: Risk of code theft with no responsibility.
+
+- Dedicated Work:
+  - Outstaffing: Outstaff specialists work full-time for the client and are not distracted by other projects.
+  - Freelancers: Impossible to track whether freelancers are fully dedicated to the client's project.
+
+
+### Company Procedure for Working with New Clients:
+
+- Initial Meeting:
+  - Hold a brief meeting to clarify questions and accurately understand the client's needs (briefing).
+  - Begin negotiating and signing the contract and NDA simultaneously.
+
+- Candidate Presentation:
+  - Within 1-2 days, send the first CVs of candidates to the client.
+  - Maintain a funnel of 3-5 CVs under consideration at any given time.
+
+- Client Selection:
+  - The client selects preferred candidates and we arrange interviews with them.
+  - Based on interview results, the client decides whether to take a particular candidate for the project or continue reviewing other candidates.
+
+- Finalizing Selection:
+  - Once the client selects a suitable candidate, agree on the candidate's start date.
+
+- Project Commencement:
+  - The specialist starts the project and works for the duration required by the client.
+
+- Monthly Reporting and Payment:
+  - At the end of each month, provide a report on the hours worked by the specialist.
+  - Sign a certificate of completed work.
+  - According to the contract terms, the client pays for the actual hours worked by the specialists during that month.
+
+
+### Timeline for Filling the Client's Vacancy (Need):
+
+- Typical Duration:
+  - Finding a suitable specialist usually takes 1 to 3 weeks.
+
+- Exceptional Cases:
+  - We have many instances where we met the client's needs within 48 hours, and even as quickly as 24 hours, from receiving the request to the specialist starting the project.
