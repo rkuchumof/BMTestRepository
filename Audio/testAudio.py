@@ -1,6 +1,8 @@
 import speech_recognition as sr
 from pydub import AudioSegment
 import argparse
+from tqdm import tqdm
+import wave
 
 def transcribe_audio_to_text(audio_file_path, output_file_path):
     # Initialize recognizer
@@ -14,20 +16,32 @@ def transcribe_audio_to_text(audio_file_path, output_file_path):
     audio.export(wav_file_path, format="wav")
 
     # Recognize speech using the audio file
-    with sr.AudioFile(wav_file_path) as source:
-        audio_data = recognizer.record(source)
+    with wave.open(wav_file_path, "rb") as wf:
+        total_frames = wf.getnframes()
+        chunk_size = 4000
 
-        try:
-            # Recognize speech using Google Web Speech API
-            text = recognizer.recognize_google(audio_data, language="ru-RU")
-            print("Transcription: ", text)
-            # Write the transcription to the output file
-            with open(output_file_path, "w", encoding="utf-8") as f:
-                f.write(text)
-        except sr.UnknownValueError:
-            print("Google Speech Recognition could not understand audio")
-        except sr.RequestError as e:
-            print("Could not request results from Google Speech Recognition service; {0}".format(e))
+        # Create a progress bar
+        progress_bar = tqdm(total=total_frames, unit="frame", desc="Processing")
+
+        result_text = ""
+        while True:
+            data = wf.readframes(chunk_size)
+            if len(data) == 0:
+                break
+            if recognizer.AcceptWaveform(data):
+                result = recognizer.Result()
+                result_text += result
+            else:
+                result_text += recognizer.PartialResult()
+            progress_bar.update(chunk_size)
+
+        progress_bar.close()
+        result_text += recognizer.FinalResult()
+
+    # Write the transcription to the output file
+    with open(output_file_path, "w", encoding="utf-8") as f:
+        f.write(result_text)
+    print("Transcription: ", result_text)
 
 def main():
     parser = argparse.ArgumentParser(description="Transcribe audio files to text.")
