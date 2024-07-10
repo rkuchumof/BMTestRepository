@@ -1,5 +1,5 @@
 import openai
-from openai.error import APIConnectionError, RateLimitError, APIError
+from openai import APIConnectionError, RateLimitError, APIError
 from telegram import Update
 from telegram.constants import ChatAction
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
